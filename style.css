@@ -1,1 +1,156 @@
-
+*{
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+.links{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: hsl(216, 30%, 68%);
+}
+nav button{
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+  text-transform: uppercase;
+  border: 2px solid hsl(256, 26%, 20%);
+  padding: 5px 20px;
+}
+header{
+  background-color: hsl(256, 26%, 20%);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 50px 100px;
+  gap: 20px;
+  position: relative;
+}
+.bar{
+  width: 100px;
+  height: 2px;
+  background-color: hsl(273, 4%, 51%);
+}
+h1{
+  color: white;
+  font-size: 42px;
+  width: 40%;
+}
+header p{
+  color: white;
+  width: 50%;
+}
+button{
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  border: 2px solid white;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+.header-img{
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 350px;
+}
+.bg-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+}
+.bg-left{
+  position: absolute;
+  left: 0;
+  top: 280px;
+  width: 120px;
+}
+main{
+  margin-top: 200px;
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+main h1{
+  color: #000;
+}
+.main{
+  display: flex;
+  gap: 30px;
+}
+.main > div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.icon img{
+  width: 50px;
+}
+.aside{
+  margin-top: 50px;
+  padding: 50px;
+  background-color: hsl(256, 26%, 20%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.aside h1{
+  width: 55%;
+  color: white;
+}
+.aside-bg{
+  position: absolute;
+  /* max-width: 50%; */
+  width: 340px;
+  object-fit: contain;
+  top: 0;
+  right: 0;
+}
+footer{
+  background-color: hsl(0, 0%, 98%);
+  margin-top: 50px;
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: uppercase;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links{
+  display: flex;
+  gap: 10px;
+}
+.footer-bar{
+  background-color: hsl(216, 30%, 68%);
+  height: 1px;
+  width: 100%;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: start;
+  gap: 200px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.item > div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
